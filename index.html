@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8' lang='en'>
+    <title>Different-text-aligns</title>
+    <style>
+.formatter{
+  font-family: sans-serif, Verdana;
+  font-size: medium;
+}
+
+.format{
+  background-color: aliceblue;
+  border: none;
+  border-left: 5px solid blue;
+  padding: 5%;
+  margin-bottom: 3%;
+  width: 75%;
+  height: 75%;
+  min-width: 200px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s;
+}
+
+.format:hover{
+  transform: scale(1.075);
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+#h1{
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class='formatter'>
+      <h1 id='h1'>Different Text-Align Formats</h1>
+      <div class='left format'>
+        <h2>Left-Align</h2>
+        <p>Left alignment is most common for body text because it follows natural reading flow in left-to-right languages.</p>
+      </div>
+      <div class='center format'>
+        <h2>Center-Align</h2>
+        <p>Center alignment is useful for titles, headings, and content that needs to be the focal point.</p>
+      </div>
+      <div class='right format'>
+        <h2>Right-Align</h2>
+        <p>Right alignment can be used for stylistic emphasis and quotes, or when aligning content against the right edge of a container.</p>
+      </div>
+     </div>
+  </body>
+</html>
